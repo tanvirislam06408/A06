@@ -1,11 +1,12 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const CartItems = ({cart,setCart}) => {
 
     const filteredCardData=(id)=>{
         const filteredCart=cart.filter(card=>card.id !== id);
         setCart(filteredCart);
-        
+        toast.error("Product Delete From Cart Successfully")
         
     }
     return (
