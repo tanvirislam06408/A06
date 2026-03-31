@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": "2",
+    "name": "SEO Optimizer",
+    "description": "Boost your website rankings with real-time keyword analysis and backlink tracking.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Daily keyword tracking",
+      "Competitor analysis",
+      "Site audit reports"
+    ],
+    "icon": "📈"
+  },
+  {
+    "id": "3",
+    "name": "Design Studio",
+    "description": "Access thousands of premium UI kits and design assets for your next big project.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10k+ Design assets",
+      "Commercial license",
+      "Cloud storage"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": "4",
+    "name": "Code Assistant",
+    "description": "Write cleaner code faster with our AI-powered IDE extension and debugger.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Multi-language support",
+      "Auto-completion",
+      "Priority bug fixes"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": "5",
+    "name": "Cloud Storage Pro",
+    "description": "Secure and encrypted file storage for teams and freelancers worldwide.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "Limited Deal",
+    "tagType": "popular",
+    "features": [
+      "2TB Encrypted storage",
+      "File versioning",
+      "Team collaboration"
+    ],
+    "icon": "☁️"
+  },
+  {
+    "id": "6",
+    "name": "Social Media Manager",
+    "description": "Automate your posts and engage with your audience across all platforms.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Auto-scheduling",
+      "Analytics dashboard",
+      "Unlimited profiles"
+    ],
+    "icon": "📱"
+  },
+  {
+    "id": "7",
+    "name": "Cyber Security Suite",
+    "description": "Protect your digital workspace with real-time threat detection and VPN.",
+    "price": 599,
+    "period": "yearly",
+    "tag": "Top Tier",
+    "tagType": "popular",
+    "features": [
+      "Malware protection",
+      "Secure VPN access",
+      "24/7 Support"
+    ],
+    "icon": "🛡️"
+  },
+  {
+    "id": "8",
+    "name": "Video Creator",
+    "description": "Turn your text into engaging videos with realistic AI avatars and voices.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "new",
+    "features": [
+      "1080p Exports",
+      "AI Voiceovers",
+      "Stock footage library"
+    ],
+    "icon": "🎬"
+  }
+]

@@ -1,6 +1,6 @@
 import React from 'react';
-import badge from '../../../assets/Group.png'
-import banner from '../../../assets/banner.png'
+import badge from '../../assets/Group.png'
+import banner from '../../assets/banner.png'
 import { CiPlay1 } from 'react-icons/ci';
 const Banner = () => {
     return (
