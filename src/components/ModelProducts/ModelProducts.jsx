@@ -8,11 +8,11 @@ const modelPromise=async()=>{
 }
 const data = modelPromise();
 
-const ModelProducts = () => {
+const ModelProducts = ({cart,setCart}) => {
     return (
         <div>
             <Suspense fallback={<p>loading..</p>}>
-                <Cards data={data}/>
+                <Cards cart={cart} setCart={setCart} data={data}/>
             </Suspense>
         </div>
     );

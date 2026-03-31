@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import ModelProducts from '../ModelProducts/ModelProducts';
+import CartItems from '../CartItems/CartItems';
 
 const ProductModels = () => {
     const [btnActive, setBtnActive] = useState('tab1');
-
-
+    const [cart,setCart]=useState([]);
+    console.log(cart);
+    
     return (
         <div>
-            <div className="flex justify-center flex-col items-center mt-20 space-y-4">
+            <div className="flex justify-center flex-col items-center mt-20 space-y-4 px-4" >
                 <h1 className='font-extrabold text-4xl'>Premium Digital Tools</h1>
                 <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
 
@@ -22,7 +24,8 @@ const ProductModels = () => {
 
 {/* product cards */}
 
-<ModelProducts/>
+{btnActive ==='tab1' && <ModelProducts cart={cart} setCart={setCart}/>}
+{btnActive ==='tab2' && <CartItems/>}
 
 
         </div>

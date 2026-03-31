@@ -1,6 +1,11 @@
 
 
-const Card = ({ model }) => {
+const Card = ({ model,cart,setCart }) => {
+
+
+    const productAddToCart=(p)=>{
+        setCart([...cart,p])
+    }
 
     const {
         id,
@@ -38,7 +43,7 @@ const Card = ({ model }) => {
                         }
                     </ul>
                     <div className="mt-6">
-                        <button className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white " >Buy Now</button>
+                        <button className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white " onClick={()=>{productAddToCart(model)}}>Buy Now</button>
                     </div>
                 </div>
             </div>
