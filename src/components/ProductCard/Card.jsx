@@ -29,7 +29,7 @@ const Card = ({ model, cart, setCart}) => {
 
     return (
         <div>
-            <div className="card bg-base-100 shadow-sm border border-gray-100 h-full">
+            <div className="card bg-base-100 shadow-sm border border-gray-100 h-full transition-all duration-150 hover:-translate-y-1">
                 <div className="card-body">
                     <div className="flex justify-between">
                         <span className="text-xl">{icon}</span>
