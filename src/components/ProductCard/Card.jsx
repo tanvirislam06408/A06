@@ -8,6 +8,7 @@ const Card = ({ model, cart, setCart }) => {
     const productAddToCart = (p) => {
         const alreadyExistCards = cart.find(exist => exist.id === id);
         if (alreadyExistCards) {
+            toast.error("Product Already Exist In Cart")
             return;
         }
         toast.success("Product Add To Cart Successfully")

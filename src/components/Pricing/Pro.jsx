@@ -2,10 +2,10 @@ import React from 'react';
 
 const Pro = () => {
     return (
-        <div>
+        <div className='h-full'>
             <div>
                 <div className="card bg-base-100 shadow-sm border border-gray-100 h-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-white">
-                    <div className="card-body">
+                    <div className="card-body h-full flex flex-col">
                         <h1 className="font-bold text-2xl">Pro</h1>
                         <p className=" text-[16px]">Best for professionals</p>
                         <p className="font-bold text-4xl">$29<span className="text-[16px] font-normal">/month</span></p>
@@ -36,7 +36,7 @@ const Pro = () => {
                             </li>
 
                         </ul>
-                        <div className="mt-6">
+                        <div className="mt-auto">
                             <button className="btn  btn-block rounded-full b">Start Pro Trial</button>
                         </div>
                     </div>
