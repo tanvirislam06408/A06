@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div className='text-white container mx-auto flex justify-between items-center py-5 flex-wrap'>
+      <div className='text-white container mx-auto flex justify-between items-center py-5 flex-wrap px-2'>
         <p className='text-[16px] text-gray-500'>© 2026 Digitools. All rights reserved.</p>
         <div>
           <ul className='flex items-center gap-4'>

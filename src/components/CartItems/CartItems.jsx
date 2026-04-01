@@ -33,7 +33,7 @@ const CartItems = ({cart,setCart}) => {
                 <div className='flex items-center gap-7'>
                     <span className='text-xl'>{c.icon}</span>
                     <div>
-                        <h1 className='font-semibold text-2xl'>{c.name}</h1>
+                        <h1 className='font-semibold text-xs md:text-2xl'>{c.name}</h1>
                         <p className='text-gray-500 font-medium mt-1.5'>${c.price}</p>
                     </div>
                 </div>
